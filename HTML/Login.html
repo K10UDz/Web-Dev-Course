@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="Front End Web Developer" content="Complete Website Design">
+	<meta name="keywords" content="HTML, CSS, Front End">
+	<meta name="author" content="Kory Séan Williams">
+
+	<link rel="stylesheet" type="text/css" href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/CSS/FrontEnd.css">
+	<link rel="stylesheet" type="text/css" href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/CSS/login.css">
+	<!-- Favicon .ico -->
+	<link rel="icon" href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/Images/images/icon.ico">
+	<script type="text/javascript" src="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/JavaScript/js/jquery.js"></script>
+	<script type="text/javascript" src="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/JavaScript/js/declarativeToggle.js"></script>
+</head>
+<body>
+	<header>
+		<div class="headermenu clear">
+			<nav class="navbar clear">
+				<img src="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/Images/images/gtworld.png" alt="front end logo">
+				<input type="text" name="search" class="mysearchbar" size="20" placeholder="Search Web...">
+				<input type="submit" value="search" size="2.5" class="mysearchbutton">
+
+				<ul class="mymenu">
+
+						<li class="drop">
+							<a href="javascript:void(0)">Menu</a>
+							<div class="drop-content">
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Index.html">Home</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Blog.html">Blog</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html">Media</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Sign Up.html">Sign Up</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Login.html">Login</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Contact.html">Contact</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/About.html">About</a>
+								
+							</div>
+						</li>
+
+						<li><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Blog.html">Blog</a></li>
+
+						<li class="drop">
+							<a href="javascript:void(0)">Media</a>
+							<div class="drop-content">
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html">Video</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html">Audio</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html">Photos</a>
+								<a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html">Slides</a>
+							</div>
+						</li>
+
+						<li><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Sign Up.html">Sign Up</a></li>
+
+						<li><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Login.html" class="active">Login</a></li>
+
+						<li><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Contact.html">Contact</a></li>
+
+						<li><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/About.html">About</a></li>
+				</ul>
+			</nav>
+			<span data-toggle-target=".navbar" class="toggle-btn">
+				&#9776;
+				<!--<img src="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/Images/images/menu.png" alt="menu toggle button">-->
+			</span>
+		</div>
+	</header>
+
+	<div class="site-container">
+		<div class="login-header">
+			<h1>Login</h1>
+			<div class="welcome">
+				<form id="loginform" action="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Media.html" method="POST">
+					<H2>Sign In</H2>
+					<div class="row">
+						<p>
+							<label for="email">Your email</label>
+							<input id="loginemail" type="email" name="email" placeholder="example@domain.com" required>
+						</p>
+						<p>
+							<label for="password">Password</label>
+							<input id="loginpass" type="password" name="password" placeholder="*********" required>
+						</p>
+						<p class="keeplogin">
+							<input type="checkbox" name="keep" id="keep" value="keep">
+							<label for="keep">Keep me Logged in</label>
+						</p>
+						<p class="recoverpassword">
+							<a href="#">Forgot Password?</a>
+						</p>
+						<input type="submit" value="Login">
+						<p class="join">
+							<label for="neww_member">Not Yet a Member...</label><a href="/Users/willkory/Documents/Web Designs/Udemy - Frontend Responsive Website 2020/Front End Complete/HTML/Sign Up.html">Register</a>
+						</p>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+<footer>
+		<div class="bottom-site">
+			<a href="https://www.facebook.com/Kory.Sean.Williams" target="_blank" class="footer-link">Facebook</a>
+			<a href="https://www.twitter.com/kory_d" target="_blank" class="footer-link">Twitter</a>
+			<a href="https://www.instagram.com/myopinionmeans" target="_blank" class="footer-link">Instagram</a>
+			<a href="https://www.gstevewall.com" target="_blank" class="footer-link">Gstevewall</a>
+			<p class="copyright">&copy;2020 Kory Séan Williams @ My Opinion Means Nothing...</p>
+		</div>
+	</footer>
+</body>
+</html>
