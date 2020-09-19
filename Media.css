@@ -17,6 +17,12 @@
 	width: 100%;
 }
 
+@media screen and (max-width: 750px){
+	.slide{
+		width: 50%;
+	}
+}
+
 /* slide next & prev buttons */
 .cycle-next{
 	position: absolute;
